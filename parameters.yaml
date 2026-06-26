@@ -1,0 +1,23 @@
+# parameters.yaml
+# Provide your pre-provisioned database and storage credentials here.
+
+backend:
+  env:
+    # Postgres Credentials
+    POSTGRES_USER: "your-postgres-user"
+    POSTGRES_PASSWORD: "your-postgres-password"
+    POSTGRES_DB: "your-postgres-db"
+    POSTGRES_HOST: "your-postgres-host-ip"
+    
+    # Spanner Credentials
+    SPANNER_PROJECT_ID: "your-gcp-project-id"
+    SPANNER_INSTANCE_ID: "your-spanner-instance-id"
+    SPANNER_DATABASE_ID: "your-spanner-database-id"
+    GCP_PROJECT_ID: "your-gcp-project-id"
+
+    # Redis Credentials
+    REDIS_URL: "redis://your-redis-ip:6379/0"
+
+    # Minio Credentials
+    MINIO_ROOT_USER: "your-minio-user"
+    MINIO_ROOT_PASSWORD: "your-minio-password"
