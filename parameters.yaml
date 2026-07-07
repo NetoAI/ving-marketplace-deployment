@@ -17,7 +17,3 @@ backend:
 
     # Redis Credentials
     REDIS_URL: "redis://your-redis-ip:6379/0"
-
-    # Minio Credentials
-    MINIO_ROOT_USER: "your-minio-user"
-    MINIO_ROOT_PASSWORD: "your-minio-password"
